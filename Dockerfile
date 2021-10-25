@@ -20,7 +20,7 @@ RUN apk add --update --no-cache \
         php7-mysqli php7-sqlite3 php7-pdo_pgsql php7-bcmath php7-gd php7-odbc php7-pdo_mysql php7-pdo_sqlite \
         php7-gettext php7-xmlreader php7-xmlwriter php7-xmlrpc php7-xml php7-simplexml php7-bz2 php7-iconv \
         php7-pdo_dblib php7-curl php7-ctype php7-pcntl php7-posix php7-phar php7-opcache php7-mbstring php7-zlib \
-        php7-fileinfo php7-tokenizer php7-sockets php7-phar php7-intl php7-pear php7-ldap php7-phpdbg php7-fpm php7 \
+        php7-fileinfo php7-tokenizer php7-sockets php7-phar php7-intl php7-pear php7-ldap php7-apcu php7-phpdbg php7-fpm php7 \
     #
     # Add Postgresql Client
     && apk add --update --no-cache postgresql-client \
